@@ -11,7 +11,7 @@ void dcm::minit(){
   pinMode(i2, OUTPUT);
 }
 
-long dcm:mspeed(int s) {
+void dcm::mspeed(int s) {
   if(s>0){
     digitalWrite(i1,HIGH);
     digitalWrite(i2,LOW);
