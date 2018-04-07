@@ -1,5 +1,5 @@
-#ifndef tl
-#define tl
+#ifndef motorlib
+#define motorlib
 
 #if (ARDUINO >=100)
   #include "Arduino.h"
